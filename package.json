@@ -1,5 +1,5 @@
 {
-  "name": "@anio-node-foundation/fs-write-atomic-file",
+  "name": "@anio-fs/int--write-atomic-file",
   "version": "2.1.0",
   "description": "Atomically write a file.",
   "main": "./dist/package.min.mjs",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anio-node-foundation/fs-write-atomic-file.git"
+    "url": "git+https://github.com/anio-fs-org/int--write-atomic-file.git"
   },
   "devDependencies": {
     "@anio-fs/api": "^4.0.0",
