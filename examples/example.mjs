@@ -1,9 +1,9 @@
-import nodeFsWriteAtomicFile from "../src/index.mjs"
+import {writeAtomicFile, writeAtomicFileSync} from "../src/index.mjs"
 
 console.log(
-	await nodeFsWriteAtomicFile("/tmp/test", "data")
+	await writeAtomicFile("/tmp/test", "data")
 )
 
 console.log(
-	nodeFsWriteAtomicFile.sync("/tmp/test", "data")
+	writeAtomicFileSync("/tmp/test", "data")
 )

@@ -1,7 +1,7 @@
 import path from "node:path"
 import createRandomIdentifier from "@anio-js-foundation/create-random-identifier"
 
-export default async function(fs_object, file_path, data, options) {
+export default async function(fs_object, file_path, data, options = {}) {
 	const random_str = createRandomIdentifier(16)
 
 	const parent_dir = path.dirname(file_path)
