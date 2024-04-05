@@ -1,10 +1,11 @@
 import {generateFromTemplate} from "vipen/autogenerate"
 
 const asyncToSync = {
+	"import {mkdir, writeFile, rename} from \"@anio-fs/api/async\"": "import {mkdir, writeFile, rename} from \"@anio-fs/api/sync\"",
 	"export default async function": "export default function",
-	"await fs_object.writeFile(": "fs_object.writeFile(",
-	"await fs_object.rename(": "fs_object.rename(",
-	"await fs_object.mkdir(": "fs_object.mkdir("
+	"await writeFile(": "writeFile(",
+	"await rename(": "rename(",
+	"await mkdir(": "mkdir("
 }
 
 export default {
