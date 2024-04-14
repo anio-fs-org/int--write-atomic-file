@@ -13,8 +13,8 @@
   "devDependencies": {
     "@anio-fs/api": "^5.0.2",
     "@anio-js-foundation/create-random-identifier": "^2.0.0",
-    "@vipen/target-js": "^0.17.0",
-    "vipen": "^0.2.1"
+    "@vipen/target-js": "0.17.0",
+    "vipen": "0.2.1"
   },
   "scripts": {
     "prepare": "./node_modules/.bin/vipen ."
