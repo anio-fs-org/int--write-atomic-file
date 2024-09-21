@@ -1,6 +1,6 @@
 {
   "name": "@anio-fs/int--write-atomic-file",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Atomically write a file.",
   "main": "./dist/package.min.mjs",
   "typings": "./dist/index.d.ts",
